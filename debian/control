@@ -38,8 +38,8 @@ Depends: libqt5waylandclient5 (= ${binary:Version}), ${misc:Depends}
 Description: QtWayland development files
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
  .
- This package contains the QtCompositor API, which allows users to write
- their own Wayland compositors.
+ This package contains the development files for QtWayland client
+ library.
 
 Package: qtwayland5
 Architecture: any
