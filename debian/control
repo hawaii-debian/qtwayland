@@ -3,10 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Dmitry Shachnev <mitya57@debian.org>,
-           Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Modestas Vainius <modax@debian.org>,
-           Pino Toscano <pino@debian.org>,
            Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
