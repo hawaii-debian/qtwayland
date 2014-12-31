@@ -1,6 +1,5 @@
-qtwayland-opensource-src (5.4.0-1) UNRELEASED; urgency=low
+qtwayland-opensource-src (5.4.0-1) experimental; urgency=low
 
-  [ Dmitry Shachnev ]
   * Initial release (closes: #697509).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Dec 2014 18:35:05 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 31 Dec 2014 20:37:29 +0300
