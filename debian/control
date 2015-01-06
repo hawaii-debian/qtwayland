@@ -5,6 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Dmitry Shachnev <mitya57@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                libegl1-mesa-dev,
