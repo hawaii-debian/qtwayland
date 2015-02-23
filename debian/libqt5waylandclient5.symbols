@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64
+# SymbolsHelper-Confirmed: 5.4.0+git20150223.0012 amd64
 libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN12QWaylandDrag10finishDragERK23QPlatformDropQtResponse@Base 5.4.0
  _ZN12QWaylandDrag11setResponseERK23QPlatformDragQtResponse@Base 5.4.0
@@ -14,14 +14,14 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN12QWaylandDragD0Ev@Base 5.4.0
  _ZN12QWaylandDragD1Ev@Base 5.4.0
  _ZN12QWaylandDragD2Ev@Base 5.4.0
- _ZN13QFontEngineFT10loadGlyphsEPNS_9QGlyphSetEPKjiPK11QFixedPointN11QFontEngine11GlyphFormatE@Base 5.4.0
  _ZN13QFontEngineFT11boundingBoxERK12QGlyphLayout@Base 5.4.0
  _ZN13QFontEngineFT11boundingBoxEj@Base 5.4.0
  _ZN13QFontEngineFT11boundingBoxEjRK10QTransform@Base 5.4.0
- _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatE@Base 5.4.0
+ _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformb@Base 5.4.0+git20150223.0012
  _ZN13QFontEngineFT15addGlyphsToPathEPjP11QFixedPointiP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.4.0
  _ZN13QFontEngineFT16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.4.0
  _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixed@Base 5.4.0
+ _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.4.0+git20150223.0012
  _ZN13QFontEngineFT16getUnscaledGlyphEjP12QPainterPathP15glyph_metrics_t@Base 5.4.0
  _ZN13QFontEngineFT17getPointInOutlineEjijP6QFixedS1_Pj@Base 5.4.0
  _ZN13QFontEngineFT18initFromFontEngineEPKS_@Base 5.4.0
@@ -130,6 +130,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QWaylandDisplay16staticMetaObjectE@Base 5.4.0
  _ZN15QWaylandDisplay18blockingReadEventsEv@Base 5.4.0
  _ZN15QWaylandDisplay18createShellSurfaceEP14QWaylandWindow@Base 5.4.0
+ _ZN15QWaylandDisplay18setLastInputDeviceEP19QWaylandInputDevicejP14QWaylandWindow@Base 5.4.0+git20150223.0012
  _ZN15QWaylandDisplay19addRegistryListenerEPFvPvP11wl_registryjRK7QStringjES0_@Base 5.4.0
  _ZN15QWaylandDisplay19currentTimeMillisecEv@Base 5.4.0
  _ZN15QWaylandDisplay22registry_global_removeEj@Base 5.4.0
@@ -1167,6 +1168,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK14QWaylandScreen11refreshRateEv@Base 5.4.0
  _ZNK14QWaylandScreen12physicalSizeEv@Base 5.4.0
  _ZNK14QWaylandScreen14extendedOutputEv@Base 5.4.0
+ _ZNK14QWaylandScreen15virtualSiblingsEv@Base 5.4.0+git20150223.0012
  _ZNK14QWaylandScreen5depthEv@Base 5.4.0
  _ZNK14QWaylandScreen6cursorEv@Base 5.4.0
  _ZNK14QWaylandScreen6formatEv@Base 5.4.0
