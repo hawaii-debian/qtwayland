@@ -14,7 +14,7 @@ export QT_SELECT := qt5
 	dh $@ --with pkgkde_symbolshelper --parallel --dbg-package=qtwayland5-dbg
 
 override_dh_auto_configure:
-	qmake
+	qmake CONFIG+=wayland-compositor
 
 override_dh_auto_install:
 	dh_auto_install
