@@ -35,6 +35,15 @@ Description: QtWayland client library
  .
  This package contains the QtWayland client library.
 
+Package: libqt5compositor5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: QtWayland compositor library
+ QtWayland is a Qt 5 module that wraps the functionality of Wayland.
+ .
+ This package contains the QtWayland compositor library.
+
 Package: libqt5waylandclient5-dev
 Architecture: any
 Section: libdevel
@@ -56,6 +65,14 @@ Description: QtWayland platform plugin
  This package contains the QtWayland platform plugin, which allows users
  to run Qt 5 applications under Wayland, and the qtwaylandscanner
  binary.
+
+Package: qtwayland5-examples
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: QtWayland platform plugin - examples for QtWayland
+  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
+  .
+  This package contains examples for using QtWayland.
 
 Package: qtwayland5-dbg
 Architecture: any
