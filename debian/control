@@ -48,7 +48,9 @@ Package: libqt5waylandclient5-dev
 Architecture: any
 Section: libdevel
 Multi-Arch: same
-Depends: libqt5waylandclient5 (= ${binary:Version}), ${misc:Depends}
+Depends: libqt5waylandclient5 (= ${binary:Version}),
+ libqt5compositor5 (= ${binary:Version}),
+ ${misc:Depends}
 Description: QtWayland development files
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
  .
